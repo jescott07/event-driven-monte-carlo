@@ -99,5 +99,11 @@ else if $Z < P(\Delta E_{min},c) - P(\Delta E_{min} + 1,c) + \ldots + P(\Delta E
 
 From these steps we evaluate $\Delta E$, and them we choose a random value of $N(\Delta E,c)$. Thus we have our new configuration $c'$.
 
+To implement this, we need a list with the folowing informations:
+
+1) The position of the occupied particle
+2) The direnction of the transitions, for exemple, up, down, right left
+3) The number of transitions of each $\Delta E$, where the maximum number of transitions is $2L^2$ where every transition has the same $\Delta E$
+
 
 
